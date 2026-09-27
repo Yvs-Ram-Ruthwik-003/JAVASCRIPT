@@ -51,3 +51,23 @@ y--;    //decrementor operator 4
 //operator precedence: parenthesis-->exponents-->multiplications, divisions, module-->addition, subtraction
 
 console.log(y);
+
+//How to accept user input
+
+//1.easy way = window prompt
+let username;
+username = window.prompt("what's your username?");
+console.log(username);
+
+//2.professional way -->using HTML textbox
+let username1;
+document.getElementById("mysubmit").onclick = function(){
+    username1 = document.getElementById("mytext").value;
+    console.log(username1);
+}
+
+let username2;
+document.getElementById("mysubmit2").onclick = function(){
+    username2 = document.getElementById("mytext2").value;
+    document.getElementById("myh2").textContent=`hello ${username2}`;
+}
