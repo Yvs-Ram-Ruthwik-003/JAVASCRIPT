@@ -1,0 +1,23 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.Roll{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 2px;
+    box-shadow: 5cap;
+    
+    background-color: rgb(123, 208, 208);
+    transition: 0.25s;
+}
+.Roll:hover{
+    background-color: aqua;
+    box-shadow: inset;
+    
+}
+.mylabels{
+    font-size: 4em;
+    padding: 3px 20px
+}
