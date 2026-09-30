@@ -1,0 +1,29 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+label{
+    font-size: 3em;
+}
+#mytext{
+    margin-top: 35px;
+    font-size: 3em;
+    width: 1.75em;
+    border-radius: 150px;
+    border-color:black;
+    padding: 2px 25px;
+}
+#mysubmit{
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 150px;
+    transition: 0.25s;
+}
+#mysubmit:hover{
+    background-color: rgb(76, 72, 72);
+    color:white
+}
+#myresult{
+    font-size: 2em;
+}
