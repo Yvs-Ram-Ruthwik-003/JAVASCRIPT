@@ -1,0 +1,16 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    
+}
+#mysubmit{
+    font-size:0.75em;;
+    border-radius: 150px;
+    margin-left: 40px;
+    padding: 2px 20px;
+    transition: 0.25s;
+}
+#mysubmit:hover{
+    background-color: rgb(105, 97, 97);
+    color: antiquewhite;
+}
