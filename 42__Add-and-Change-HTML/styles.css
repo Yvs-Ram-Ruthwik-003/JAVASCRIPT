@@ -1,0 +1,15 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    border : 3px solid;
+    width: 100%;
+    height: 125px;
+}
+
+#games{
+    border: 3px solid;
+    font-size: 2em;
+    
+}
